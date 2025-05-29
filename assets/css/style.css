@@ -1,0 +1,280 @@
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  background-color: #333;
+  background: url(../img/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 120px;
+  height: 78px;
+  background: url(../img/logo.png);
+  text-indent: -99999px;
+}
+
+/*
+ * Footer
+ */
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 250px;
+}
+body  .container {
+max-width: 1240px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 250px;
+  background-color: white;
+  padding-top: 40px;
+}
+
+.mode-xs .footer {
+	clear:left;
+}
+
+/* CTAs */
+.ctas {
+}
+.ctas .ctacontainer  {
+	color: white;
+}
+.ctabox {
+	background: black;
+	width: 100%;
+	padding: 20px;
+	height: 240px;
+	display: block;
+	text-align: center;
+	position: relative;
+}
+.ctas .ctacontainer .ctabox:nth-child(1) {
+	margin-right: 10px;
+}
+.ctas .ctacontainer .ctabox:nth-child(2) {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.ctas .ctacontainer .ctabox:nth-child(3) {
+	margin-left: 10px;
+}
+div.arrow {
+	float: right;
+	width: 23px;
+	height: 22px;
+	background: url(../img/cta-hover.png) no-repeat;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+
+.mode-xs .ctas .ctacontainer .ctabox {
+	margin: 20px auto;
+	width: 350px;
+}
+
+
+hr { 
+	border : 0;
+    height : 6px;
+    background : url(../img/horizontal-lines.png) repeat-x;
+    margin : 1em 0;
+}
+.ctas { margin-top: 20px; margin-bottom: 20px; }
+.cta-cafe .hover h3{ padding-top: 15px; }
+.cta-bake .hover h3{ padding-top: 15px; }
+.ctas .ctabox:hover {
+	background: black;
+}
+.cta .hover  {
+	display:none;
+}	
+.cta p {
+font-family: 'Libre Baskerville', serif;
+font-size: 13px;
+opacity: 0.9;
+}
+
+.mode-md .cta p{
+font-size: 15px;
+}
+.mode-lg .cta p{
+font-size: 16px;
+}
+.cta {
+
+}
+.cta:hover {
+
+}
+.mode-lg .cta:hover .hover,
+.mode-md .cta:hover .hover,
+.mode-sm .cta:hover .hover,
+.cta:hover .hover {
+	display:block;
+}	
+.mode-lg .cta:hover .unhover,
+.mode-md .cta:hover .unhover,
+.mode-sm .cta:hover .unhover,
+.cta:hover .unhover {
+	display:none;
+}
+
+
+.mode-xs .cta:hover .hover {
+	display:none;
+	opacity: 0.9;
+}	
+.mode-xs .cta:hover .unhover {
+	display:block;
+}
+
+.unhover {
+margin-top: 30px;
+}
+.ctabox {
+	cursor: pointer;
+}
+.contacthover {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	z-index:9999;
+}
+.contacthover div {
+	text-align:center;
+	background: none;
+	padding: 10px;
+	color: black;
+	cursor: pointer;
+	width: 140px;
+	font-family: 'Lato', sans-serif;
+	z-index:9999;
+	font-size: 12px;
+}
+.contacthover:hover div {
+	text-align:center;
+	background: black;
+	padding: 10px;
+	cursor: pointer;
+	width: 140px;
+	font-family: 'Lato', sans-serif;
+	z-index:9999;
+	font-size: 12px;
+}
+.cblack {
+	color: black;
+	font-weight: 900;
+}
+.contacthover:hover .cblack {
+	color: white;
+	font-weight: 900;
+}
+.cwhite a {
+	color: #555555;
+	text-decoration: none;
+}
+.cwhite a:hover {
+	color: #222;
+}
+.contacthover div.cwhite {
+	display:none;
+	text-align:center;
+	background: white;
+	padding: 10px;
+	color:black;
+	border-top: 1px solid #555555;
+}
+.contacthover div.cwhite:hover {
+	opacity: 0.9;
+}
+
+.contacthover:hover div {
+	display:block;
+}
+
+
+
+footer {
+	font-family: 'Lato', sans-serif;
+	font-size: 9px;
+	color: #b7b7b7;
+}
+.mode-md footer, .mode-lg footer{
+	font-size: 11px;
+}
+.mode-lg footer{
+	font-size: 13px;
+}
+.address a {
+	color: #b7b7b7;
+	text-decoration: none;
+}
+.address a:hover {
+	color: black;
+}
+
+.cta h3 {
+font-family: 'Lato', sans-serif;
+font-weight: 900;
+font-size: 30px;
+}
+
+.cta .unhover h3 {
+font-size: 20px;
+}
+.mode-xs .cta .unhover h3 {
+	font-size: 30px;
+}
+
+.ctabox {
+max-height: 230px;
+}
+.mode-sm .ctabox {
+max-height: 250px;
+}
+.mode-md .ctabox {
+max-height: 250px;
+}
+.mode-xs .ctabox {
+height: 140px;
+max-height: 140px;
+}
+
+
+body.mode-xs { 
+margin-bottom: 0;
+}
+.mode-xs .footer { 
+height: auto; 
+position: relative; 
+clear:left;
+margin-top: 0;
+font-size: 12px;
+}
+.mode-xs .footer .address {
+margin-bottom: 30px;
+}
